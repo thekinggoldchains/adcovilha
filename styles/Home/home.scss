@@ -1,0 +1,27 @@
+.banner-home {
+    height: 800px;
+
+    span {
+        color: white;
+    }
+}
+.banner-img {
+    object-fit: cover;
+    object-position: top;
+    background-color: #000;
+    filter: brightness(50%) grayscale(40%);
+}
+
+.logo-img {
+    width: 35vh;
+}
+
+.texto-banner {
+    font-size: 5vw;
+    bottom: 40%;
+    padding: 10px;
+}
+
+.hr-banner {
+    width: 30vw;
+}
