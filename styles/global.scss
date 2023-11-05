@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Open+Sans&family=Roboto:wght@400;500&family=Rubik+Dirt&family=Silkscreen&display=swap');
 @import './bootstrap-custom';
 @import './Home/home.scss';
+@import './Header/header.scss';
+@import './Login/login.scss';
 
 html,
 body {
@@ -22,9 +25,13 @@ body {
     min-height: 100vh !important;
 }
 
+main {
+  height: 100vh;
+}
+
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 * {
@@ -34,4 +41,22 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f0717e;
+  border-radius: 14px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f0717e;
 }
